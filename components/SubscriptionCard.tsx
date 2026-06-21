@@ -18,7 +18,7 @@ import clsx from "clsx";
             </View>
         </View>
         <View className="sub-price-box">
-            <Text className="sub-price">{formatCurrency(price)}</Text>
+            <Text className="sub-price">{formatCurrency(price, currency)}</Text>
             <Text className="sub-billing">{billing}</Text>
     
         </View>
