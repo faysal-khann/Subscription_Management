@@ -48,7 +48,7 @@ export default function App() {
               </View>
 
               <View className="mb-5">
-                <ListHeading title="upcoming" />
+                <ListHeading title="Upcoming" />
 
                 <FlatList
                   data={UPCOMING_SUBSCRIPTIONS}
